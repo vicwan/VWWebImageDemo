@@ -14,6 +14,15 @@
 		3D66BCF820299EFD00F97E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D66BCF620299EFD00F97E9D /* LaunchScreen.storyboard */; };
 		3D66BCFB20299EFD00F97E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BCFA20299EFD00F97E9D /* main.m */; };
 		3D66BD0520299EFE00F97E9D /* VWWebImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD0420299EFE00F97E9D /* VWWebImageDemoTests.m */; };
+		3D66BD162029A03B00F97E9D /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD152029A03B00F97E9D /* UIImageView+WebCache.m */; };
+		3D66BD1A2029ABE700F97E9D /* VWDownloadOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD192029ABE700F97E9D /* VWDownloadOperationQueue.m */; };
+		3D66BD282029AD6200F97E9D /* VWImageCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD272029AD6200F97E9D /* VWImageCacheManager.m */; };
+		3D66BD2B2029ADA300F97E9D /* VWMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD2A2029ADA300F97E9D /* VWMemoryCache.m */; };
+		3D66BD2E2029ADAE00F97E9D /* VWDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD2D2029ADAE00F97E9D /* VWDiskCache.m */; };
+		3D66BD332029B10500F97E9D /* VWImageProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD322029B10500F97E9D /* VWImageProcessManager.m */; };
+		3D66BD362029B11700F97E9D /* VWImageCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD352029B11700F97E9D /* VWImageCompressor.m */; };
+		3D66BD392029B13C00F97E9D /* VWDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD382029B13C00F97E9D /* VWDownloadManager.m */; };
+		3D66BD3C2029B23F00F97E9D /* VWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD3B2029B23F00F97E9D /* VWCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,25 @@
 		3D66BD0020299EFE00F97E9D /* VWWebImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWWebImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D66BD0420299EFE00F97E9D /* VWWebImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWWebImageDemoTests.m; sourceTree = "<group>"; };
 		3D66BD0620299EFE00F97E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D66BD142029A03B00F97E9D /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		3D66BD152029A03B00F97E9D /* UIImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		3D66BD172029A04A00F97E9D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D66BD182029ABE700F97E9D /* VWDownloadOperationQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWDownloadOperationQueue.h; sourceTree = "<group>"; };
+		3D66BD192029ABE700F97E9D /* VWDownloadOperationQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWDownloadOperationQueue.m; sourceTree = "<group>"; };
+		3D66BD262029AD6200F97E9D /* VWImageCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWImageCacheManager.h; sourceTree = "<group>"; };
+		3D66BD272029AD6200F97E9D /* VWImageCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWImageCacheManager.m; sourceTree = "<group>"; };
+		3D66BD292029ADA300F97E9D /* VWMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWMemoryCache.h; sourceTree = "<group>"; };
+		3D66BD2A2029ADA300F97E9D /* VWMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWMemoryCache.m; sourceTree = "<group>"; };
+		3D66BD2C2029ADAE00F97E9D /* VWDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWDiskCache.h; sourceTree = "<group>"; };
+		3D66BD2D2029ADAE00F97E9D /* VWDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWDiskCache.m; sourceTree = "<group>"; };
+		3D66BD312029B10500F97E9D /* VWImageProcessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWImageProcessManager.h; sourceTree = "<group>"; };
+		3D66BD322029B10500F97E9D /* VWImageProcessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWImageProcessManager.m; sourceTree = "<group>"; };
+		3D66BD342029B11700F97E9D /* VWImageCompressor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWImageCompressor.h; sourceTree = "<group>"; };
+		3D66BD352029B11700F97E9D /* VWImageCompressor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWImageCompressor.m; sourceTree = "<group>"; };
+		3D66BD372029B13C00F97E9D /* VWDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWDownloadManager.h; sourceTree = "<group>"; };
+		3D66BD382029B13C00F97E9D /* VWDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWDownloadManager.m; sourceTree = "<group>"; };
+		3D66BD3A2029B23F00F97E9D /* VWCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWCache.h; sourceTree = "<group>"; };
+		3D66BD3B2029B23F00F97E9D /* VWCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +109,10 @@
 		3D66BCEA20299EFD00F97E9D /* VWWebImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3D66BCEB20299EFD00F97E9D /* AppDelegate.h */,
-				3D66BCEC20299EFD00F97E9D /* AppDelegate.m */,
-				3D66BCEE20299EFD00F97E9D /* ViewController.h */,
-				3D66BCEF20299EFD00F97E9D /* ViewController.m */,
-				3D66BCF120299EFD00F97E9D /* Main.storyboard */,
-				3D66BCF420299EFD00F97E9D /* Assets.xcassets */,
-				3D66BCF620299EFD00F97E9D /* LaunchScreen.storyboard */,
+				3D66BD0F20299F1100F97E9D /* VWWebImage */,
+				3D66BD1E2029AC0B00F97E9D /* Origin */,
+				3D66BD172029A04A00F97E9D /* README.md */,
 				3D66BCF920299EFD00F97E9D /* Info.plist */,
-				3D66BCFA20299EFD00F97E9D /* main.m */,
 			);
 			path = VWWebImageDemo;
 			sourceTree = "<group>";
@@ -101,6 +124,70 @@
 				3D66BD0620299EFE00F97E9D /* Info.plist */,
 			);
 			path = VWWebImageDemoTests;
+			sourceTree = "<group>";
+		};
+		3D66BD0F20299F1100F97E9D /* VWWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3D66BD142029A03B00F97E9D /* UIImageView+WebCache.h */,
+				3D66BD152029A03B00F97E9D /* UIImageView+WebCache.m */,
+				3D66BD182029ABE700F97E9D /* VWDownloadOperationQueue.h */,
+				3D66BD192029ABE700F97E9D /* VWDownloadOperationQueue.m */,
+				3D66BD2F2029B08800F97E9D /* Download */,
+				3D66BD302029B09800F97E9D /* ImageProccess */,
+				3D66BD1F2029ACEE00F97E9D /* Cache */,
+			);
+			path = VWWebImage;
+			sourceTree = "<group>";
+		};
+		3D66BD1E2029AC0B00F97E9D /* Origin */ = {
+			isa = PBXGroup;
+			children = (
+				3D66BCEB20299EFD00F97E9D /* AppDelegate.h */,
+				3D66BCEC20299EFD00F97E9D /* AppDelegate.m */,
+				3D66BCEE20299EFD00F97E9D /* ViewController.h */,
+				3D66BCEF20299EFD00F97E9D /* ViewController.m */,
+				3D66BCF120299EFD00F97E9D /* Main.storyboard */,
+				3D66BCF420299EFD00F97E9D /* Assets.xcassets */,
+				3D66BCF620299EFD00F97E9D /* LaunchScreen.storyboard */,
+				3D66BCFA20299EFD00F97E9D /* main.m */,
+			);
+			path = Origin;
+			sourceTree = "<group>";
+		};
+		3D66BD1F2029ACEE00F97E9D /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				3D66BD262029AD6200F97E9D /* VWImageCacheManager.h */,
+				3D66BD272029AD6200F97E9D /* VWImageCacheManager.m */,
+				3D66BD3A2029B23F00F97E9D /* VWCache.h */,
+				3D66BD3B2029B23F00F97E9D /* VWCache.m */,
+				3D66BD292029ADA300F97E9D /* VWMemoryCache.h */,
+				3D66BD2A2029ADA300F97E9D /* VWMemoryCache.m */,
+				3D66BD2C2029ADAE00F97E9D /* VWDiskCache.h */,
+				3D66BD2D2029ADAE00F97E9D /* VWDiskCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		3D66BD2F2029B08800F97E9D /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				3D66BD372029B13C00F97E9D /* VWDownloadManager.h */,
+				3D66BD382029B13C00F97E9D /* VWDownloadManager.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		3D66BD302029B09800F97E9D /* ImageProccess */ = {
+			isa = PBXGroup;
+			children = (
+				3D66BD312029B10500F97E9D /* VWImageProcessManager.h */,
+				3D66BD322029B10500F97E9D /* VWImageProcessManager.m */,
+				3D66BD342029B11700F97E9D /* VWImageCompressor.h */,
+				3D66BD352029B11700F97E9D /* VWImageCompressor.m */,
+			);
+			path = ImageProccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,8 +293,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D66BCF020299EFD00F97E9D /* ViewController.m in Sources */,
+				3D66BD362029B11700F97E9D /* VWImageCompressor.m in Sources */,
+				3D66BD1A2029ABE700F97E9D /* VWDownloadOperationQueue.m in Sources */,
 				3D66BCFB20299EFD00F97E9D /* main.m in Sources */,
+				3D66BD392029B13C00F97E9D /* VWDownloadManager.m in Sources */,
+				3D66BD3C2029B23F00F97E9D /* VWCache.m in Sources */,
+				3D66BD162029A03B00F97E9D /* UIImageView+WebCache.m in Sources */,
+				3D66BD332029B10500F97E9D /* VWImageProcessManager.m in Sources */,
+				3D66BD2E2029ADAE00F97E9D /* VWDiskCache.m in Sources */,
 				3D66BCED20299EFD00F97E9D /* AppDelegate.m in Sources */,
+				3D66BD282029AD6200F97E9D /* VWImageCacheManager.m in Sources */,
+				3D66BD2B2029ADA300F97E9D /* VWMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
