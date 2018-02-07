@@ -10,8 +10,8 @@
 
 @interface VWCache : NSCache
 
-
-- (void)addCacheObject:(id)obj key:(NSString *)key;
+- (void)addCache:(id)obj key:(NSString *)key;
+- (id)getCacheByKey:(NSString *)key;
 - (void)removeCacheByKey:(NSString *)key;
 - (void)clearCache;
 

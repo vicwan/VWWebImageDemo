@@ -8,19 +8,15 @@
 //
 
 #import "VWImageProcessManager.h"
-#import "VWImageCompressor.h"
 
 @interface VWImageProcessManager()
 
-@property (nonatomic, strong) VWImageCompressor *compressor;
 
 @end
 
 @implementation VWImageProcessManager
 
-- (UIImage *)compressImageWithRatio:(CGFloat)ratio {
-	return [self.compressor compressImageWithRatio:ratio];
-}
+
 
 
 #pragma mark - Lazy Load

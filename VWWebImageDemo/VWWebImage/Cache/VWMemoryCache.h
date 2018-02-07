@@ -11,4 +11,6 @@
 
 @interface VWMemoryCache : VWCache
 
++ (instancetype)sharedInstance;
+
 @end

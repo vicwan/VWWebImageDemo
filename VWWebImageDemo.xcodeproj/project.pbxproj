@@ -23,6 +23,10 @@
 		3D66BD362029B11700F97E9D /* VWImageCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD352029B11700F97E9D /* VWImageCompressor.m */; };
 		3D66BD392029B13C00F97E9D /* VWDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD382029B13C00F97E9D /* VWDownloadManager.m */; };
 		3D66BD3C2029B23F00F97E9D /* VWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D66BD3B2029B23F00F97E9D /* VWCache.m */; };
+		3DDCB677202A83F700A0834D /* VWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCB676202A83F700A0834D /* VWFileManager.m */; };
+		3DDCB67A202AA10D00A0834D /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCB679202AA10D00A0834D /* NSString+Util.m */; };
+		3DDCB67E202AACA100A0834D /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCB67D202AACA100A0834D /* UIImage+Compress.m */; };
+		3DDCB681202ADAE900A0834D /* VWFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCB680202ADAE900A0834D /* VWFileDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,14 @@
 		3D66BD382029B13C00F97E9D /* VWDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWDownloadManager.m; sourceTree = "<group>"; };
 		3D66BD3A2029B23F00F97E9D /* VWCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWCache.h; sourceTree = "<group>"; };
 		3D66BD3B2029B23F00F97E9D /* VWCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWCache.m; sourceTree = "<group>"; };
+		3DDCB675202A83F700A0834D /* VWFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWFileManager.h; sourceTree = "<group>"; };
+		3DDCB676202A83F700A0834D /* VWFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWFileManager.m; sourceTree = "<group>"; };
+		3DDCB678202AA10D00A0834D /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		3DDCB679202AA10D00A0834D /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		3DDCB67C202AACA100A0834D /* UIImage+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
+		3DDCB67D202AACA100A0834D /* UIImage+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
+		3DDCB67F202ADAE900A0834D /* VWFileDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWFileDownloader.h; sourceTree = "<group>"; };
+		3DDCB680202ADAE900A0834D /* VWFileDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWFileDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +141,8 @@
 		3D66BD0F20299F1100F97E9D /* VWWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				3D66BD142029A03B00F97E9D /* UIImageView+WebCache.h */,
-				3D66BD152029A03B00F97E9D /* UIImageView+WebCache.m */,
-				3D66BD182029ABE700F97E9D /* VWDownloadOperationQueue.h */,
-				3D66BD192029ABE700F97E9D /* VWDownloadOperationQueue.m */,
+				3DDCB67B202AA5DF00A0834D /* Categories */,
+				3DDCB674202A83E200A0834D /* File */,
 				3D66BD2F2029B08800F97E9D /* Download */,
 				3D66BD302029B09800F97E9D /* ImageProccess */,
 				3D66BD1F2029ACEE00F97E9D /* Cache */,
@@ -175,6 +185,10 @@
 			children = (
 				3D66BD372029B13C00F97E9D /* VWDownloadManager.h */,
 				3D66BD382029B13C00F97E9D /* VWDownloadManager.m */,
+				3D66BD182029ABE700F97E9D /* VWDownloadOperationQueue.h */,
+				3D66BD192029ABE700F97E9D /* VWDownloadOperationQueue.m */,
+				3DDCB67F202ADAE900A0834D /* VWFileDownloader.h */,
+				3DDCB680202ADAE900A0834D /* VWFileDownloader.m */,
 			);
 			path = Download;
 			sourceTree = "<group>";
@@ -188,6 +202,28 @@
 				3D66BD352029B11700F97E9D /* VWImageCompressor.m */,
 			);
 			path = ImageProccess;
+			sourceTree = "<group>";
+		};
+		3DDCB674202A83E200A0834D /* File */ = {
+			isa = PBXGroup;
+			children = (
+				3DDCB675202A83F700A0834D /* VWFileManager.h */,
+				3DDCB676202A83F700A0834D /* VWFileManager.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		3DDCB67B202AA5DF00A0834D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3D66BD142029A03B00F97E9D /* UIImageView+WebCache.h */,
+				3D66BD152029A03B00F97E9D /* UIImageView+WebCache.m */,
+				3DDCB678202AA10D00A0834D /* NSString+Util.h */,
+				3DDCB679202AA10D00A0834D /* NSString+Util.m */,
+				3DDCB67C202AACA100A0834D /* UIImage+Compress.h */,
+				3DDCB67D202AACA100A0834D /* UIImage+Compress.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,11 +331,15 @@
 				3D66BCF020299EFD00F97E9D /* ViewController.m in Sources */,
 				3D66BD362029B11700F97E9D /* VWImageCompressor.m in Sources */,
 				3D66BD1A2029ABE700F97E9D /* VWDownloadOperationQueue.m in Sources */,
+				3DDCB67A202AA10D00A0834D /* NSString+Util.m in Sources */,
+				3DDCB67E202AACA100A0834D /* UIImage+Compress.m in Sources */,
 				3D66BCFB20299EFD00F97E9D /* main.m in Sources */,
 				3D66BD392029B13C00F97E9D /* VWDownloadManager.m in Sources */,
 				3D66BD3C2029B23F00F97E9D /* VWCache.m in Sources */,
 				3D66BD162029A03B00F97E9D /* UIImageView+WebCache.m in Sources */,
+				3DDCB681202ADAE900A0834D /* VWFileDownloader.m in Sources */,
 				3D66BD332029B10500F97E9D /* VWImageProcessManager.m in Sources */,
+				3DDCB677202A83F700A0834D /* VWFileManager.m in Sources */,
 				3D66BD2E2029ADAE00F97E9D /* VWDiskCache.m in Sources */,
 				3D66BCED20299EFD00F97E9D /* AppDelegate.m in Sources */,
 				3D66BD282029AD6200F97E9D /* VWImageCacheManager.m in Sources */,

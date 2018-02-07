@@ -8,8 +8,31 @@
 
 #import "VWDiskCache.h"
 
+#define CACHE_FOLDER @"VWWebImageCache"
+
+@interface VWDiskCache()
+
+@property (nonatomic, copy) NSString *cachesDir;
+
+@end
+
 @implementation VWDiskCache
 
 
+
+
+
+
+
+
+
+#pragma mark - Lazy load
+- (NSString *)cachesDir {
+	if (!_cachesDir) {
+		NSString *cache = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
+		_cachesDir = [cache stringByAppendingPathComponent:CACHE_FOLDER];
+	}
+	return _cachesDir;
+}
 
 @end

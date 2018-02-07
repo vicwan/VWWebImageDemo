@@ -11,4 +11,6 @@
 
 @interface VWDiskCache : VWCache
 
++ (instancetype)sharedInstance;
+
 @end

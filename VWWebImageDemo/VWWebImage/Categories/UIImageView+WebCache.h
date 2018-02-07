@@ -12,7 +12,6 @@
 
 - (void)vw_setImageWithURL:(NSURL *)url;
 
-- (void)vw_setImageWithURL:(NSURL *)url
-	   placeHolderImage:(UIImage *)placeHolder;
+- (void)vw_setImageWithURL:(NSURL *)url placeHolderImage:(UIImage *)placeHolder;
 
 @end

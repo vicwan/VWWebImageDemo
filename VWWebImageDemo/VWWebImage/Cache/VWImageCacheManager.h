@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+@class UIImage;
 
 @interface VWImageCacheManager : NSObject
 
-
+- (UIImage *)getImageByURL:(NSURL *)url;
+- (UIImage *)getImageByURLString:(NSString *)urlString;
 
 @end

@@ -10,6 +10,5 @@
 
 @interface VWImageProcessManager : NSObject
 
-- (UIImage *)compressImageWithRatio:(CGFloat)ratio;
 
 @end
